@@ -12,7 +12,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 prompt_template = """
 Bạn là một trợ lý thông minh. Hãy trả lời câu hỏi dựa trên các thông tin trong tài liệu được cung cấp. 
-Nếu không có thông tin, bạn có thể suy luận dựa trên kiến thức của mình.
+Nếu không có thông tin, bạn có thể suy luận dựa trên kiến thức của mình.Hãy trả lời bằng tiếng việt nhé và không cần nhắc lại câu hỏi
 
 Câu hỏi: {question}
 Dữ liệu:
