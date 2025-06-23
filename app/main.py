@@ -26,7 +26,6 @@ def on_startup():
     create_db_and_tables()
     if not os.path.exists("faiss_index/index.faiss"):
         print("Chưa có FAISS index, tạo mới...")
-        from app.generate_faiss import generate_faiss_index
         generate_faiss_index()
     else:
         print("Đã có FAISS index, load model...")
